@@ -1,0 +1,85 @@
+@import '../scss/vendor';
+
+
+// body{
+//     font-family: 'Raleway', sans-serif;
+//     font-family: 'Roboto Condensed', sans-serif;   
+// }
+
+a,
+a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.main-header{
+    // width: 100vw;
+    // line-height: 5rem;
+ 
+    .navbar-brand{
+        // background-color: blueviolet;
+        animation:music 1s linear infinite;
+        animation-direction: alternate;
+        
+    }
+
+        .navbar-nav{
+
+           .nav-link:hover{
+            color:  brown; 
+           
+           }
+
+        }
+    
+
+    .navbar-brand:hover{
+        color: #077660;
+        margin-right:40px;
+    }
+    
+    .navbar-nav > li{
+        margin-left:110px;
+        margin-right:40px;
+      }
+
+
+.fa-solid{
+    font-size: 2rem;
+}
+
+
+    @keyframes music {
+        from{
+            transform: rotate(5deg);
+        }to{
+            transform: rotate(-5deg);
+        }
+    }
+    
+    &:hover{
+        filter: drop-shadow( rgba(7,4,99));
+    }
+}
+
+
+
+
+.rest{
+    margin-top: 80px;
+}
+
+.dest{
+    .imgsd{
+        margin-left: 80px;
+    }
+}
+
+//  .header-hero{
+    
+//         background-color: black;
+     
+//  }
+// .header_text_btn{
+// background-color: darkgray;
+// }

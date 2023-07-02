@@ -1,0 +1,150 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&family=Roboto+Condensed:ital,wght@1,300&display=swap");
+a,
+a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+.main-header .navbar-brand {
+  animation: music 1s linear infinite;
+  animation-direction: alternate;
+}
+.main-header .navbar-nav .nav-link:hover {
+  color: brown;
+}
+.main-header .navbar-brand:hover {
+  color: #077660;
+  margin-right: 40px;
+}
+.main-header .navbar-nav > li {
+  margin-left: 110px;
+  margin-right: 40px;
+}
+.main-header .fa-solid {
+  font-size: 2rem;
+}
+@keyframes music {
+  from {
+    transform: rotate(5deg);
+  }
+  to {
+    transform: rotate(-5deg);
+  }
+}
+.main-header:hover {
+  filter: drop-shadow(rgb(7, 4, 99));
+}
+
+.rest {
+  margin-top: 80px;
+}
+
+.dest .imgsd {
+  margin-left: 80px;
+}/*# sourceMappingURL=main.css.map */
+
+/* .header-hero {
+  background-color: black;
+} */ 
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&family=Roboto+Condensed:ital,wght@1,300&display=swap");
+a,
+a:hover {
+text-decoration: none;
+color: blue;
+}
+
+.main-header .navbar-brand {
+animation: music 1s linear infinite;
+animation-direction: alternate;
+}
+.main-header .navbar-nav .nav-link:hover {
+color: brown;
+}
+.main-header .navbar-brand:hover {
+color: #077660;
+margin-right: 40px;
+}
+.main-header .navbar-nav > li {
+margin-left: 160px;
+margin-right: 40px;
+}
+.main-header .fa-solid {
+font-size: 2rem;
+}
+@keyframes music {
+from {
+transform: rotate(5deg);
+}
+to {
+transform: rotate(-5deg);
+}
+}
+.main-header:hover {
+filter: drop-shadow(rgb(7, 4, 99));
+}
+
+.rest {
+margin-top: 60px;
+color: aliceblue;
+}
+
+.dest .imgsd {
+margin-left: 10px;
+}/*# sourceMappingURL=main.css.map */
+.header-hero {
+background-color: black;
+}
+
+.imgsd{
+  filter: drop-shadow(rgb(246,231,231));
+}
+
+.main_header_left{
+    
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.main_header_right{
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.watch{
+  color : blue;
+}
+
+.card-body{
+  /* height: 30rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
